@@ -1,0 +1,87 @@
+.threeFooter{
+  display: flex;
+  flex-direction: row;
+  background-color: #5e6ea9;
+  width: 1440px;
+  margin: auto;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footerTitle{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFEF3;
+  margin-bottom: 20px;
+}
+
+/* our company  */
+
+.ourCompany{
+  width: 299.44px;
+  height: 261.73px;
+  align-items: flex-start;
+}
+.ourCompany a{
+  text-decoration: none;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFEF3;
+  margin-bottom: 10px;
+}
+
+.footerData{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* contact us  */
+.contactUs{
+  display: flex;
+  flex-direction: column;
+}
+.contactDetail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.contactDetail i{
+  margin-right: 20px;
+}
+
+.contactDetail .text{
+  font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+color: white;
+width: 286.68px;
+}
+
+.contactUsIcon{
+  font-size: 30px;
+  color: #fdfadc;
+}
+
+
+/* connect us */
+
+.socialMediaContainer{
+  
+}
+
+.socialIcon{
+  color: whitesmoke;
+  font-size: 50px;
+  margin-right: 20px;
+}

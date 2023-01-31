@@ -1,0 +1,115 @@
+/* product header and product title */
+
+.productHeader{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:center;
+    margin: auto;
+    margin-top: 30px;
+    width: 1440px;
+}
+.productHeader .productTitle{
+        width: auto;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        color: #0B4AE6;
+        margin-right: 30px;
+}
+
+.productHeader .laboratoryEquipment{
+    width: auto;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #46599D;
+    margin-right: 50px;
+}
+
+.exploreButton{
+    margin-left: 0px;
+}
+/* product header and product title */
+
+/* product card */
+.productCardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    margin: auto;
+}
+
+.productCard{
+    width: 479px;
+    height: 576px;
+    padding: 0px 50px;
+    background: linear-gradient(180deg, rgba(70, 89, 157, 0.8) 0%, rgba(217, 217, 217, 0) 100%);
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+.productCard .productImage{
+    width: 280.6px;
+    height: 263.24px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-bottom: 100px;
+}
+
+.productCard .productBrandName{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #54739F;
+    margin-bottom: 15px;
+    
+}
+.productCard .productModel{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #54739F;
+        margin-bottom: 20px;
+}
+.productCard .productName{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        color: #5677A4;
+}
+
+/* product card */
+    
+
+
+/* product image slider */
+
+
+.swiper{
+    width: 1400px;
+    margin-top: 50px;
+}
+

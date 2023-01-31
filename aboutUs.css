@@ -1,0 +1,47 @@
+.aboutUsLetter{
+    width: 1400px;
+    height: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-left: 30px;
+}
+
+
+.readMoreButton{
+    width: 227px;
+    height: 56px;
+    background: #7186CF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    border: none;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.readMoreButton:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.readMoreButton:active{
+    box-shadow: none;
+}
+
+.readMoreButton p{
+    width: auto;
+    font-family: 'Nova Flat' , "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
